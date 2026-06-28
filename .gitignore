@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Model checkpoints produced by the examples
+*.pt
+*.ckpt
+mamba_ckpt.pt
+
+# The per-file commit helper itself — must never be tracked or pushed.
+git_commit_each.sh
